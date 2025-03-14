@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'san-serif';
+}
+
+body{
+    background: lightblue;
+}
+.container{
+    position: relative;
+    background: lightblue;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+    
+    
+}
+
+.container .left-side{
+    background: #003147;
+    padding: 40px;
+    
+    
+}
+
+.container .right-side{
+    background: white;
+    padding: 40px;
+}  
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+}
+
+span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.header{
+    
+}
+
+h2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 600;
+    line-height: 1.4em;
+    border-bottom: 1px solid lightblue;
+}
+p .line{
+    border-bottom: 2px;
+}
+
+.contact-info{
+    padding-top: 50px;
+}
+.contact-info h1{
+    color: white;
+}
+
+.contact-info .icon{
+    color: lightblue;
+}
+
+ .contact-info ul {
+    list-style: none;
+    
+}
+
+.contact-info span{
+    
+}
+
+.education{
+    padding-top: 50px;
+}
+
+.education h1{
+    color: white;
+}
+
+.education ul{
+    list-style: none;
+}
+
+.education  .color{
+    color: lightblue
+}
+
+.education hr{
+    color: lightblue
+}
+
+.education .color{
+
+    font-size: 0.9em;
+    
+}
+
+.experience{
+    padding-top: 80px;
+}
+
+
+.language{
+    padding-top: 90px;
+}
