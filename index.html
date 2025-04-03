@@ -7,6 +7,385 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="data:image/png;base64,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">
     <title>MY CV RESUME</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', 'san-serif';
+        
+    }
+
+    body{
+        background: lightblue;
+    }
+    /*
+    #home
+    {
+        background: rgb(240,45,30);
+        background: linear-gradient(90deg, rgba(240,45,30,1) 0%, rgba(212,35,166,1) 65%, rgba(73,0,255,1) 100%);
+        min-height: 70vh;
+        background-size: cover;
+        background-position: center;
+        transition: 0.2s;
+    }
+
+    .nav-container
+    {
+        max-width: 1200px;
+        padding: 16px;
+        margin: auto;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-bar .logo
+    {
+        color: white;
+        font-size: 1.5em;
+        align-items: center;
+        
+    }
+
+    .nav-bar ul{
+        display: flex;
+        gap: 16px;
+        list-style: none;
+        align-items: center;
+    }
+    .nav-bar ul a 
+    {
+        text-decoration: none;
+        color: black;
+        
+    }
+
+    .nav-bar ul a:hover
+    {
+        
+        transition: 1s;
+        background-color: white;
+        width: 18px;
+        height: 20px;
+        border-radius: 5px;
+    
+        
+    }
+
+    .about
+    {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .about .text
+    {
+        color: white;
+    }
+
+    .about .text button
+    {
+        text-decoration: none;
+        
+        margin-top: 20px;
+        border: none;
+        border-radius: 5px;
+        height: 50px;
+        width: 200px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        
+    }
+
+    .about .text button a
+    {
+        color:#081921;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    .about .text button a:active
+    {
+        color: pink;
+    }
+
+    .about .text p
+    {
+        font-weight: 1.5em;
+    }
+
+    .about .text p span
+    {
+        color: black;
+        font-size: 2.5em;
+        padding-left: 20px;
+        font-weight: 500;
+    }
+    .about .text ul
+    {
+        list-style: none;
+        margin-top: 5px;
+    }
+
+    .about .text ul .icon
+    {
+        color: black;
+    }
+
+    .about .text ul
+    {
+        font-size: 1.3em;
+    }
+
+    .about .text ul:hover
+    {
+        
+        text-decoration: underline;
+        
+        cursor: pointer;
+    }
+
+    .about .text ul li
+    {
+    justify-content: space-around;
+    }
+    #About
+    {
+        background: white;
+        min-height: 70vh;
+    }
+    .about img
+    {
+        height: 300px;
+        width: 300px;
+        border-radius: 500px;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+
+    .about-me
+    {
+        margin: auto;
+        padding: 16px;
+        max-width: 1200px;
+        flex-wrap: wrap;
+    }
+    .about-me .content
+    {
+        
+        display: flex;
+        align-items: center;
+    }
+    .about-me .content img
+    {
+        width: 300px;
+        height: 300px;
+        border-radius: 500px;
+        
+    }
+
+    */
+
+    .container{
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        min-height: 1000px;
+        margin: 50px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+        flex-direction: column;
+        
+        
+        
+    }
+    #cv
+    {
+        background: lightblue;
+    }
+
+    .container .left-side{
+        background: #003147;
+        padding: 40px;
+        
+        
+        
+    }
+
+    .container .right-side{
+        background: white;
+        padding: 40px;
+    }  
+
+    .left-side .profile img{
+        position: relative;
+        left: 10%;
+        height: 200px;
+        width: 200px;
+        border-radius: 500px;
+    }
+
+    span{
+        font-size: 0.8em;
+        font-weight: 300;
+    }
+
+    .header{
+        
+    }
+
+    h2{
+        color: white;
+        font-size: 1.5em;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 600;
+        line-height: 1.4em;
+        border-bottom: 1px solid lightblue;
+    }
+    p .line{
+        border-bottom: 2px;
+    }
+
+    .contact-info{
+        padding-top: 50px;
+    }
+    .contact-info h1{
+        color: white;
+    }
+
+    .contact-info .icon{
+        color: lightblue;
+    }
+
+    .contact-info ul {
+        list-style: none;
+        
+    }
+
+    .contact-info ul li{
+        color: white;
+        cursor: pointer;
+    }
+
+    .contact-info ul li :hover{
+        text-decoration: underline;
+    }
+    .contact-info ul li{
+        line-height: 1.8em;
+    }
+    .contact-info span{
+        
+    }
+
+    .education{
+        padding-top: 100px;
+    }
+
+    .education h1{
+        color: white;
+    }
+
+    .education ul{
+        list-style: none;
+        line-height: 1.8em;
+    }
+
+    .education ul li{
+        color: white;
+    }
+
+    .education  .color{
+        color: lightblue
+    }
+
+    .education hr{
+        color: lightblue
+    }
+
+    .education .color{
+
+        font-size: 0.9em;
+        
+    }
+
+    .experience
+    {
+        padding-top: 50px;
+    }
+    .experience .text-info
+    {
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .experience .text-info h5
+    {
+        color: #03a9f4;
+    }
+    .language{
+        padding-top: 90px;
+    }
+
+    .language ul  span{
+        
+        font-size: 0.9em;
+    }
+
+    .language ul{
+        list-style: none;
+    }
+
+    .language.contact .line{
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background: #081921;
+        display: block;
+        margin-top: 5px;
+    }
+
+    .language.contact .line div{
+        position: absolute ;
+        top: 0;
+        left: 0;
+        height: 10px;
+        background: #03a9f4;
+    }
+
+    .content .profile h1{
+        border-bottom: 2px solid;
+    }
+
+    .content .profile p{
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    .content .experience h1
+    {
+        border-bottom: 2px solid;
+    }
+
+    .content .experience p
+    {
+        margin-top: 20px; 
+    }
+
+    .content .language.contact h1
+    {
+        border-bottom: 2px solid;
+    }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -74,25 +453,57 @@
             <div class="content">
                 <div class="profile">
                     <h1>PROFILE</h1>
-                    <ul>
-                        <li>
+                    
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorum cum fuga exercitationem deleniti repudiandae consequuntur, architecto alias magni assumenda ratione ipsa expedita ex, consequatur placeat maiores facilis consectetur rem.
+                                I am an IT student who loves technology and enjoys learning new things. I like solving problems and improving my skills in coding and computers.
                             </p>
-                        </li>
-                    </ul>
+                       
 
                 </div>
 
                 <div class="experience">
                     <h1>EXPERIENCE</h1>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel asperiores sint fugit repellat deserunt recusandae accusamus delectus obcaecati eius veniam, explicabo nulla temporibus aperiam eaque incidunt atque? Consequuntur, consequatur voluptas?</p>
+                    <p>I know how to use a computer, and I can learn quickly if someone teaches me. I am willing to improve my skills and gain more experience in using technology.</p>
                 </div>
 
                 <div class="language">
                     <h1>LANGUAGE</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt eius, ducimus possimus nobis officiis laudantium amet, error non, iusto maiores temporibus est rem perferendis itaque dolor sapiente et ullam repudiandae.</p>
+                    <ul>
+                        <li>
+                            
+                            <span class="text"> HTML</span>
+                            <span class="line">
+                            <div style="width: 70%;"></div>
+                            </span>
+                        </li>
+                        <li>
+                            
+                            <span class="text"> CSS</span>
+                            <span class="line"><div style="width: 50%;"></div></span>
+                        </li>
+                        <li>
+                            
+                            <span class="text"> JAVA</span>
+                            <span class="line"><div style="width: 25%;"></div></span>
+                        </li>
+                        <li>
+                            
+                            <span class="text"> C#</span>
+                            <span class="line"><div style="width: 30%;"></div></span>
+                        </li>
+                        <li>
+                            
+                            <span class="text">PYTHON</span>
+                            <span class="line"><div style="width: 20%;"></div></span>
+                        </li>
+                        <li>
+                           
+                            <span class="text">C</span>
+                            <span class="line"><div style="width: 20%;"></div></span>
+                        </li>
+                    </ul>
+                
                 </div>
             </div>
         </div>
